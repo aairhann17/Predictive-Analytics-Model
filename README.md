@@ -24,17 +24,23 @@ This project trains a Random Forest model to predict Titanic passenger survival 
 
 2. Install dependencies
 
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
-2. Install dependencies
 
-  ```bash
-  pip install -r requirements.txt
+3. Train the model
 
+   ```bash
+   python train_model.py
+
+
+4. Run the Streamlit app
+
+   ```bash
+   streamlit run app.py
 
 
 ## Features
- - Interactive UI for single passenger survival prediction.
- - Batch CSV upload for multiple predictions.
- - Clear model evaluation metrics saved during training.
+  - Interactive UI for single passenger survival prediction.
+  - Batch CSV upload for multiple predictions.
+  - Clear model evaluation metrics saved during training.
